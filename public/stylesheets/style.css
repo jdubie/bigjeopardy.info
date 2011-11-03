@@ -1,15 +1,15 @@
-body { background: #990000 url('/images/noise.png'); margin: 65px }
+body { background: #990000 url('/images/noise.png'); margin: 25px }
 
 h1 { color: #fff;
     font-family: 'Paytone One', arial, serif;
-    font-size: 90px;
+    font-size: 60px;
     margin-bottom: 30px;
     text-shadow: #013 0 10px 15px, #013 0 0 1px;
 }
 
 p {
   font-family: Tahoma, arial, serif;
-  font-size: 30px;
+  font-size: 26px;
   color: #fff;
   text-shadow: #013 0 4px 12px, #013 0 0 1px;
 }
