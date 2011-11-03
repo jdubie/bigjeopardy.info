@@ -1,0 +1,20 @@
+body { background: #990000 url('/images/noise.png'); margin: 65px }
+
+h1 { color: #fff;
+    font-family: 'Paytone One', arial, serif;
+    font-size: 90px;
+    margin-bottom: 30px;
+    text-shadow: #013 0 10px 15px, #013 0 0 1px;
+}
+
+p {
+  font-family: Tahoma, arial, serif;
+  font-size: 30px;
+  color: #fff;
+  text-shadow: #013 0 4px 12px, #013 0 0 1px;
+}
+p.date { font-weight: bold; color: #bbb }
+
+img { display: block; margin-right: auto; margin-left: auto; padding-top: 30px; }
+img.thumbnail { max-width: 500px }
+
