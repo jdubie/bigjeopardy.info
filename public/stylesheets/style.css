@@ -18,3 +18,4 @@ p.date { font-weight: bold; color: #bbb }
 img { display: block; margin-right: auto; margin-left: auto; padding-top: 30px; }
 img.thumbnail { max-width: 500px }
 
+.fb-like { float: right }
