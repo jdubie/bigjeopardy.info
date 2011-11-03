@@ -1,12 +1,6 @@
 express = require 'express'
-cradle  = require 'cradle'
-combo   = require 'combo'
-
-nano = require('nano')('http://admin:admin@localhost:5984')
-db = nano.use 'somacentral'
 
 app = module.exports = express.createServer()
-
 
 # Configuration
 
@@ -35,6 +29,6 @@ app.get '/flyer', (req,res) ->
   res.render 'flyer'
 
 
-app.listen 3000
+app.listen 3001
 
 console.log "Express server listening on port %d in %s mode", app.address().port, app.settings.env
