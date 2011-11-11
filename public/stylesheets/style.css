@@ -5,6 +5,7 @@ h1 { color: #fff;
     font-size: 60px;
     margin-bottom: 30px;
     text-shadow: #013 0 10px 15px, #013 0 0 1px;
+    font-weight: bold;
 }
 
 p {
@@ -13,9 +14,11 @@ p {
   color: #fff;
   text-shadow: #013 0 4px 12px, #013 0 0 1px;
 }
-p.date { font-weight: bold; color: #bbb }
 
-img { display: block; margin-right: auto; margin-left: auto; padding-top: 30px; }
-img.thumbnail { max-width: 500px }
+p.date { font-size: 30px; font-weight: bold; color: #bbb; }
+/*#date p.item { font-size: 26px; margin-left: 0px; margin-left:20px; }*/
+
+img { display: block; margin-right: auto; margin-left: auto; }
+img.thumbnail { max-width: 500px; float: right; margin-left: 20px;}
 
 .fb-like { float: right }
